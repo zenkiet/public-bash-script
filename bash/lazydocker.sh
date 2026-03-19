@@ -4,7 +4,7 @@ set -euo pipefail
 #--- Constants ---#
 readonly CORE_URL="https://raw.githubusercontent.com/zenkiet/public-bash-script/main/bash/core.sh?v=$(date +%s)"
 readonly REPO="jesseduffield/lazydocker"
-readonly INSTALL_DIR="/usr/local/bin"
+readonly INSTALL_DIR="/usr/bin"
 readonly BINARY_NAME="lazydocker"
 readonly GITHUB_API="https://api.github.com/repos/${REPO}/releases/latest"
 
